@@ -1,91 +1,129 @@
-🏏 Cricket Dude (Ultimate TUI Edition)
+# 🏏 Cricket Dude v1.5
 
-Cricket Dude is a high-performance Terminal User Interface (TUI) for die-hard cricket fans who spend their time in the command line. Why open a browser when you can track live ball-by-ball status directly in your terminal with zero latency?
+Retro styled live cricket terminal experience built completely in Python.
 
-🧐 What is this for?
+Cricket Dude transforms your terminal into a live cricket command center with fullscreen UI, live scores, team colors, real-time updates, over logs and retro arcade aesthetics.
 
-Most sports websites are heavy, filled with ads, and slow. Cricket Dude solves this by:
+---
 
-Providing a lightweight alternative to websites.
+# ✨ Features
 
-Offering a Live Scoreboard that refreshes every 15 seconds.
+- 🔴 Live cricket scores
+- 🟢 Real-time live match indicators
+- 🎨 Team-based color styling
+- 📍 Match venue display
+- 📺 Retro arcade terminal UI
+- ⚡ Fullscreen terminal experience
+- 🔄 Auto refresh every 5 seconds
+- 🏏 Real over-by-over ball log
+- 🌐 Dedicated terminal window
+- 📡 Offline internet detection
+- 💻 Installable CLI command
+- 🚀 Lightweight and fast
 
-Categorizing matches into Live, Recent Results, and Upcoming Schedules.
+---
 
-Including an IPL Special mode for the T20 season.
+# 📦 Installation
 
-🚀 How to Run
+Clone the repository:
 
-Option 1: Standard Installation (Recommended)
+```bash
+git clone https://github.com/YOUR_USERNAME/cricket-dude.git
+```
 
-This installs the app globally on your system so you can run it from anywhere.
+Go into the project folder:
 
-git clone [https://github.com/mrduhlol/cricket-dude.git](https://github.com/mrduhlol/cricket-dude.git)
+```bash
 cd cricket-dude
-pip install .
+```
+
+Install locally:
+
+```bash
+pip install -e .
+```
+
+---
+
+# ▶️ Run
+
+```bash
 cricket-dude
+```
+
+---
+
+# 🔥 What's New In v1.5
+
+## UI Overhaul
+- Completely redesigned retro arcade interface
+- Improved fullscreen experience
+- Better navigation system
+- Enhanced loading screen
+
+## Live Match Improvements
+- Real over log support
+- Better live status rendering
+- Team color improvements
+- Venue/location support
+- Match pause detection
+
+## Terminal Improvements
+- Dedicated terminal window support
+- Custom terminal title
+- Better Windows compatibility
+
+## Packaging
+- Added global CLI command:
+
+```bash
+cricket-dude
+```
+
+---
+
+# 🖥️ Recommended Terminal
+
+For the best experience:
+
+- Windows Terminal
+- PowerShell
+- CMD
+
+---
+
+# ⚠️ Internet Requirement
+
+Cricket Dude requires an active internet connection to fetch live cricket data.
+
+---
+
+# 🛠️ Built With
+
+- Python
+- Rich
+- Requests
+
+---
+
+# 📜 License
+
+MIT License
+
+---
+
+# ❤️ Developer Note
+
+This project started as a simple terminal cricket viewer and slowly evolved into a full retro live cricket terminal experience.
+
+Made with lots of debugging, experimentation and late-night coding 😭🔥
 
 
-Option 2: Run directly via Python
+---
 
-If you don't want to install it globally:
-
-pip install rich requests
-python main.py
-
-
-📊 Project Vitals
-
-Metric
-
-Status
-
-Current Version
-
-v1.0.0 (Stable)
-
-Total Downloads
+# 🎈 Screenshots
+<img width="1121" height="633" alt="image" src="https://github.com/user-attachments/assets/38c3df4f-c3d8-4fe1-96e7-f14fe96773ca" />
+<img width="1090" height="840" alt="image" src="https://github.com/user-attachments/assets/aad40023-4adc-40b8-b38b-b5c2f9eea583" />
+<img width="1089" height="844" alt="image" src="https://github.com/user-attachments/assets/473ddf61-d2b9-4622-8d76-2bd49a63429a" />
 
 
-
-Repository Views
-
-
-
-Stars
-
-
-
-⌨️ Controls & Navigation
-
-[↑ / ↓] Arrows: Cycle through menu options.
-
-[Enter / Space]: Confirm selection and enter match view.
-
-[Q / Esc]: Go back to the main menu or exit the application.
-
-[Ctrl + C]: Emergency kill (Force close).
-
-🛠 Advanced Configuration
-
-The app comes with a built-in "community" API key. However, for high-frequency usage, it is recommended to get your own key from CricketData.org.
-
-Set your custom key in your environment variables:
-
-Windows: $env:CRICKET_API_KEY="your-key-here"
-
-Linux/macOS: export CRICKET_API_KEY="your-key-here"
-
-📦 What's Inside?
-
-main.py: The engine. Handles API requests and the Rich UI rendering.
-
-setup.py: Allows you to install the tool as a system command.
-
-.gitignore: Keeps your GitHub repo clean of Python cache files.
-
-📄 License
-
-Distributed under the MIT License. You are free to use, modify, and distribute this software.
-
-Developed by mrduhlol. Give it a ⭐ if you like it!
