@@ -28,7 +28,7 @@ Cricket Dude transforms your terminal into a live cricket command center with fu
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cricket-dude.git
+git clone https://github.com/mrduhlol/cricket-dude.git
 ```
 
 Go into the project folder:
